@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@utils": ["./src/utils"],
+            "@components": ["./src/components"],
+            "@components/*": ["./src/components/*"],
+            "@types": ["./src/types"],
+            // "@pages": ["./src/pages"],
+            "@atoms": ["./src/atoms"],
+            "@API": ["./src/API"],
+            "@context": ["./src/context"],
+            "@assets": ["./src/assets"],
+            // "@forms": ["./src/components/forms"],
+            // "@layout": ["./src/components/layout"],
+            "@lib": ["./src/lib"],
+            "@hooks": ["./src/hooks"]
+        }
+    },
+    "include": ["src", "src/components/pages/Incubator/.tsx"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

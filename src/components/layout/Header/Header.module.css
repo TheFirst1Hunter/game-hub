@@ -1,0 +1,15 @@
+.container {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    height: 7vh;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+.flex-grow {
+    flex-grow: 0.05;
+    flex-basis: content;
+}

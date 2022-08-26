@@ -1,0 +1,21 @@
+.container {
+    background-color: coral;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        background-color: coral;
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
