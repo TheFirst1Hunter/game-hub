@@ -10,7 +10,7 @@ import { Main, Incubator, AboutUs } from '@components/pages';
 function App() {
     const dim = useWindowDimensions();
     return (
-        <Router>
+        <Router basename='/game-hub'>
             {dim.width < 800 ? <BurgerMenu /> : <Header />}
             <Routes>
                 <Route
